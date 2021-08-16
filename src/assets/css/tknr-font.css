@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'tknr-font';
+  src:  url('../webfonts/tknr-font.eot?r0siyu');
+  src:  url('../webfonts/tknr-font.eot?r0siyu#iefix') format('embedded-opentype'),
+    url('../webfonts/tknr-font.ttf?r0siyu') format('truetype'),
+    url('../webfonts/tknr-font.woff?r0siyu') format('woff'),
+    url('../webfonts/tknr-font.svg?r0siyu#tknr-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'tknr-font' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-amazon:before {
+  content: "\e900";
+}
+.icon-github:before {
+  content: "\e901";
+}
+.icon-mixcloud:before {
+  content: "\e902";
+}
+.icon-soundcloud:before {
+  content: "\e903";
+}
+.icon-tumblr:before {
+  content: "\e904";
+}
+.icon-facebook:before {
+  content: "\e905";
+}
+.icon-instagram:before {
+  content: "\e906";
+}
+.icon-twitter:before {
+  content: "\e907";
+}
+.icon-bandcamp:before {
+  content: "\e908";
+}
+
+/*
+ * additional
+ */
+
+
+.icon-qiita:before{
+	font-weight: bold !important;
+	content:"Q";
+}
+.icon-iflyer:before{
+        font-weight: bold !important;
+        content:"iF";
+}

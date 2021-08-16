@@ -1,0 +1,27 @@
+{
+  "name": "tknr.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "update": "npx npm-check-updates -u",
+    "minify": "bash minify.sh",
+    "git-push": "bash git_add_commit_push.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tknr/tknr.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tknr/tknr.com/issues"
+  },
+  "homepage": "https://github.com/tknr/tknr.com#readme",
+  "dependencies": {
+    "clean-css-cli": "^5.3.3",
+    "npm-check-updates": "^11.8.3",
+    "purgecss": "^4.0.3",
+    "uglify-js": "^3.14.1"
+  }
+}

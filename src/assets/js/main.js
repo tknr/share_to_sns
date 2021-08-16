@@ -1,11 +1,16 @@
-document.getElementById("url").value = getParam("url");
-document.getElementById("title").value = getParam("title");
-
-var bookmarklet_href = "javascript:window.open('"+location.protocol+"//"+location.host+location.pathname+"?title='+encodeURIComponent(document.title)+'&url='+encodeURIComponent(location.href))";
-document.getElementById("bookmarklet").setAttribute("href",bookmarklet_href);
-document.getElementById("bookmarklet_source").value = bookmarklet_href;
-var bookmarklet_innerText = "share with "+location.host+location.pathname;
-document.getElementById("bookmarklet").innerText=bookmarklet_innerText
+{
+	var url = getParam("url");
+	var title = getParam("title");
+	document.getElementById("url").value = url;
+	document.getElementById("title").value = title;
+}
+{
+	var bookmarklet_href = "javascript:window.open('"+location.protocol+"//"+location.host+location.pathname+"?title='+encodeURIComponent(document.title)+'&url='+encodeURIComponent(location.href))";
+	document.getElementById("bookmarklet").setAttribute("href",bookmarklet_href);
+	document.getElementById("bookmarklet_source").value = bookmarklet_href;
+	var bookmarklet_innerText = "share with "+location.host+location.pathname;
+	document.getElementById("bookmarklet").innerText=bookmarklet_innerText
+}
 
 document.getElementById("twitter").onclick = function() {
 	var eUrl = getEncodedValue('url');
@@ -42,4 +47,9 @@ function getEncodedValue(name){
 	var raw = document.getElementById(name).value;
 	var ret = encodeURIComponent(raw);
 	return ret;
+}
+
+if ('addEventListener' in window) {
+	window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
+	document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
 }

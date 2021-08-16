@@ -1,1 +1,1 @@
-*,::after,::before{box-sizing:border-box}ul{list-style:none}textarea{white-space:revert}
+*,::after,::before{box-sizing:border-box}ol,ul{list-style:none}table{border-collapse:collapse}textarea{white-space:revert}

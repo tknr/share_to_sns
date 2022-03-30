@@ -2,7 +2,7 @@
 	var url = getParam("url");
 	var title = getParam("title");
 	document.getElementById("url").value = url;
-	document.getElementById("title").value = title;
+	document.getElementById("title").value = '"'+title+'"';
 }
 {
 	var bookmarklet_href = "javascript:window.open('"+location.protocol+"//"+location.host+location.pathname+"?title='+encodeURIComponent(document.title)+'&url='+encodeURIComponent(location.href))";

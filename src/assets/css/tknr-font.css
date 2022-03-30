@@ -39,15 +39,18 @@
 }
 .icon-tumblr:before {
   content: "\e904";
+color : #36465d !important;
 }
 .icon-facebook:before {
   content: "\e905";
+color : #243c64 !important;
 }
 .icon-instagram:before {
   content: "\e906";
 }
 .icon-twitter:before {
   content: "\e907";
+color : #1d9bf0 !important;
 }
 .icon-bandcamp:before {
   content: "\e908";

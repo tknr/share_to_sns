@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tknr/tknr.com.git"
+    "url": "git+https://github.com/tknr/share_to_sns.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tknr/tknr.com/issues"
+    "url": "https://github.com/tknr/share_to_sns/issues"
   },
-  "homepage": "https://github.com/tknr/tknr.com#readme",
+  "homepage": "https://github.com/tknr/share_to_sns#readme",
   "dependencies": {
     "clean-css-cli": "^5.5.2",
     "npm-check-updates": "^12.5.4",

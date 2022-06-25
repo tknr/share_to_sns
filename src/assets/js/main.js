@@ -27,11 +27,13 @@ document.getElementById("tumblr").onclick = function() {
         var eTitle = getEncodedValue('title');
         window.open('https://www.tumblr.com/widgets/share/tool?canonicalUrl='+eUrl+'&title='+eTitle);
 }
+/*
 document.getElementById("pocket").onclick = function() {
         var eUrl = getEncodedValue('url');
         var eTitle = getEncodedValue('title');
         window.open('https://getpocket.com/b/r4.js?u='+eUrl+'&t='+eTitle);
 }
+*/
 
 /**
  *  * Get the URL parameter value

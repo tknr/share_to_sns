@@ -15,7 +15,7 @@
 document.getElementById("twitter").onclick = function () {
         var eUrl = getEncodedValue('url');
         var eTitle = getEncodedValue('title');
-        window.open('https://twitter.com/share?url=' + eUrl + '&text=' + eTitle);
+        window.open('https://x.com/intent/post?url=' + eUrl + '&text=' + eTitle);
 }
 document.getElementById("facebook").onclick = function () {
         var eUrl = getEncodedValue('url');

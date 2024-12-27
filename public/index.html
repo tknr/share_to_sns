@@ -1,62 +1,77 @@
 <!doctype html>
 <html lang="ja">
+
 <head>
-<title>share to sns</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-<meta name="description" content="share">
-<meta http-equiv='x-dns-prefetch-control' content='on'>
-<link rel="preconnect dns-prefetch" href="//fonts.googleapis.com">
-<link rel="preconnect dns-prefetch" href="//www.googletagmanager.com">
-<link rel="preconnect dns-prefetch" href="//pagead2.googlesyndication.com">
-<link rel="preconnect dns-prefetch" href="//googleads.g.doubleclick.net">
-<link rel="preconnect dns-prefetch" href="//googleads4.g.doubleclick.net">
-<link rel="preconnect dns-prefetch" href="//tpc.googlesyndication.com">
-<link rel="preconnect dns-prefetch" href="//www.gstatic.com">
-<link rel="preload prefetch" as="font" href="assets/webfonts/tknr-font.ttf?r0siyu" crossorigin>
-<link rel="preload prefetch" as="font" href="assets/webfonts/tknr-font.woff" crossorigin>
-<link rel="preload prefetch stylesheet" as="style" media="print" onload="this.media='all'" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300&subset=japanese&display=swap" />
-<link rel="preload prefetch stylesheet" as="style" media="print" onload="this.media='all'" href="assets/css/reset.min.css" />
-<link rel="preload prefetch stylesheet" as="style" media="print" onload="this.media='all'" href="assets/css/tknr-font.min.css" />
-<link rel="preload prefetch stylesheet" as="style" media="print" onload="this.media='all'" href="assets/css/main.min.css" />
-<link rel="preload prefetch" as="script" href="assets/js/main.min.js">
-<!--[if lt IE 9]>
+    <title>share to sns</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <meta name="description" content="share">
+    <meta http-equiv='x-dns-prefetch-control' content='on'>
+    <link rel="preconnect dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="preconnect dns-prefetch" href="//www.googletagmanager.com">
+    <link rel="preconnect dns-prefetch" href="//pagead2.googlesyndication.com">
+    <link rel="preconnect dns-prefetch" href="//googleads.g.doubleclick.net">
+    <link rel="preconnect dns-prefetch" href="//googleads4.g.doubleclick.net">
+    <link rel="preconnect dns-prefetch" href="//tpc.googlesyndication.com">
+    <link rel="preconnect dns-prefetch" href="//www.gstatic.com">
+    <link rel="preload prefetch stylesheet" as="style" media="print" onload="this.media='all'" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300&subset=japanese&display=swap" />
+    <link rel="preload prefetch stylesheet" as="style" media="print" onload="this.media='all'" href="//cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <link rel="preload prefetch stylesheet" as="style" media="print" onload="this.media='all'" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preload prefetch stylesheet" as="style" media="print" onload="this.media='all'" href="assets/css/bootstrap/colors.min.css" />
+    <link rel="preload prefetch stylesheet" as="style" media="print" onload="this.media='all'" href="assets/css/bootstrap/buttons.min.css" />
+    <!--[if lt IE 9]>
 <script src="assets/js/html5shiv.min.js"></script>
 <![endif]-->
 </head>
+
 <body class="is-preload">
-<!-- Google Tag Manager (noscript) -->
-<iframe src="//www.googletagmanager.com/ns.html?id=GTM-K6JXD2B" height="0" width="0" style="display:none;visibility:hidden" loading="lazy"></iframe>
-<!-- End Google Tag Manager (noscript) -->
-<!-- Wrapper -->
-<div id="wrapper">
-<!-- Main -->
-<section id="main">
-<header>
-<div><h1>url</h1><span><input type="text" id="url" value="https://tknr.com"/></span></div>
-<div><h1>title</h1><span><textarea id="title">tknr.com</textarea></span></div>
-</header>
-<footer>
-<ul class="icons">
-<li><a id="twitter" class="icon brands icon-twitter">twitter</a></li>
-<li><a id="facebook" class="icon brands icon-facebook">facebook</a></li>
-<li><a id="tumblr" class="icon brands icon-tumblr">tumblr</a></li>
-</ul>
-<div><span>bookmarklet:</span><span><a id="bookmarklet" href="">+share</a></span></div>
-<div><input type="text" id="bookmarklet_source" /></div>
-</footer>
-</section>
-
-<!-- Footer -->
-<footer id="footer">
-<ul class="copyright">
-<li>&copy; tknr.com</li>
-</ul>
-</footer>
-
-</div>
-
-<!-- Scripts -->
-<script src="assets/js/main.min.js"></script>
+    <!-- Google Tag Manager (noscript) -->
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-K6JXD2B" height="0" width="0" style="display:none;visibility:hidden" loading="lazy"></iframe>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- Wrapper -->
+    <div id="wrapper">
+        <!-- Main -->
+        <section id="main">
+            <div class="container">
+                <div class="row">&nbsp;</div>
+                <div class="row">
+                    <label for="url" class="col-sm-2 col-form-label">url</label>
+                    <div class="col"><input class="form-control" type="text" id="url" value="https://tknr.com" /></div>
+                </div>
+                <div class="row">
+                    <label for="title" class="col-sm-2 col-form-label">title</label>
+                    <div class="col"><textarea class="form-control" id="title">tknr.com</textarea></div>
+                </div>
+                <hr />
+                <div class="row">
+                    <div class="col-auto"><a id="twitter"><i class="fa-brands fa-x-twitter"></i></a></div>
+                    <div class="col-auto"><a id="facebook"><i class="fa-brands fa-facebook"></i></a></div>
+                    <div class="col-auto"><a id="threads"><i class="fa-brands fa-threads"></i></a></div>
+		    <div class="col-auto"><a id="tumblr"><i class="fa-brands fa-tumblr"></i></a></div>
+                    <div class="col-auto"><a id="line"><i class="fa-brands fa-line"></i></a></div>
+		    <div class="col-auto"><a id="pocket"><i class="fa-brands fa-get-pocket"></i></a></div>
+                </div>
+                <hr />
+                <div class="row">
+                    <div class="col-auto">bookmarklet</div>
+                    <div class="col"><a id="bookmarklet" href="">+share</a></div>
+                </div>
+                <div class="row">
+                    <input class="form-control" type="text" id="bookmarklet_source" />
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+            <div class="container">
+                <span class="text-center text-body-secondary">&copy; tknr.com</span>
+            </div>
+        </footer>
+    </div>
+    <!-- Scripts -->
+    <script src="//cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/main.js"></script>
 </body>
+
 </html>

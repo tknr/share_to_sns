@@ -32,13 +32,16 @@ document.getElementById("threads").onclick = function () {
         var eTitle = getEncodedValue('title');
         window.open('https://www.threads.net/intent/post?text=' + eUrl + '&title=' + eTitle);
 }
-/*
-document.getElementById("pocket").onclick = function() {
+document.getElementById("line").onclick = function () {
         var eUrl = getEncodedValue('url');
         var eTitle = getEncodedValue('title');
-        window.open('https://getpocket.com/b/r4.js?u='+eUrl+'&t='+eTitle);
+        window.open('https://social-plugins.line.me/lineit/share?from=line_scheme&url=' + eUrl + '&text=' + eTitle);
 }
-*/
+document.getElementById("pocket").onclick = function () {
+        var eUrl = getEncodedValue('url');
+        var eTitle = getEncodedValue('title');
+        window.open('https://getpocket.com/edit?url=' + eUrl + '&title=' + eTitle);
+}
 
 /**
  *  * Get the URL parameter value

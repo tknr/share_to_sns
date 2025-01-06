@@ -29,7 +29,8 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["minify", "npm:12.0.0"],\
           ["npm-check-updates", "npm:17.1.12"],\
-          ["npm-run-all", "npm:4.1.5"]\
+          ["npm-run-all", "npm:4.1.5"],\
+          ["try-to-catch", "npm:3.0.1"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -2018,7 +2019,8 @@ const RAW_RUNTIME_STATE =
           ["share_to_sns", "workspace:."],\
           ["minify", "npm:12.0.0"],\
           ["npm-check-updates", "npm:17.1.12"],\
-          ["npm-run-all", "npm:4.1.5"]\
+          ["npm-run-all", "npm:4.1.5"],\
+          ["try-to-catch", "npm:3.0.1"]\
         ],\
         "linkType": "SOFT"\
       }]\

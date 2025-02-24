@@ -27,8 +27,8 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["minify", "npm:12.0.0"],\
-          ["npm-check-updates", "npm:17.1.12"],\
+          ["minify", "npm:13.0.0"],\
+          ["npm-check-updates", "npm:17.1.15"],\
           ["npm-run-all", "npm:4.1.5"],\
           ["try-to-catch", "npm:3.0.1"]\
         ],\
@@ -332,16 +332,16 @@ const RAW_RUNTIME_STATE =
     ]],\
     ["@swc/core", [\
       ["npm:1.10.3", {\
-        "packageLocation": "./.yarn/unplugged/@swc-core-virtual-aaeb5636e4/node_modules/@swc/core/",\
+        "packageLocation": "./.yarn/unplugged/@swc-core-virtual-bf0a5f54f8/node_modules/@swc/core/",\
         "packageDependencies": [\
           ["@swc/core", "npm:1.10.3"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:ffe4ab641e6c334f6e9fa801579b93f847ec62c6338eb5a0468b95a66460621c0cee8db5aab36d7c84edceddff406d996431229b7e7ab1586e4a6720ffca6b3e#npm:1.10.3", {\
-        "packageLocation": "./.yarn/unplugged/@swc-core-virtual-aaeb5636e4/node_modules/@swc/core/",\
+      ["virtual:b38e5152a67e03f722893918e83eca0ca138dd449cec9e1f2c6d0a4e58984ef9523796e1e72d98f3bf390be1c0ecf8f0a1bbd846980c91498455787812a2deae#npm:1.10.3", {\
+        "packageLocation": "./.yarn/unplugged/@swc-core-virtual-bf0a5f54f8/node_modules/@swc/core/",\
         "packageDependencies": [\
-          ["@swc/core", "virtual:ffe4ab641e6c334f6e9fa801579b93f847ec62c6338eb5a0468b95a66460621c0cee8db5aab36d7c84edceddff406d996431229b7e7ab1586e4a6720ffca6b3e#npm:1.10.3"],\
+          ["@swc/core", "virtual:b38e5152a67e03f722893918e83eca0ca138dd449cec9e1f2c6d0a4e58984ef9523796e1e72d98f3bf390be1c0ecf8f0a1bbd846980c91498455787812a2deae#npm:1.10.3"],\
           ["@swc/core-darwin-arm64", "npm:1.10.3"],\
           ["@swc/core-darwin-x64", "npm:1.10.3"],\
           ["@swc/core-linux-arm-gnueabihf", "npm:1.10.3"],\
@@ -737,10 +737,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:ffe4ab641e6c334f6e9fa801579b93f847ec62c6338eb5a0468b95a66460621c0cee8db5aab36d7c84edceddff406d996431229b7e7ab1586e4a6720ffca6b3e#npm:4.4.0", {\
-        "packageLocation": "./.yarn/__virtual__/debug-virtual-db2cd5a0ce/6/.yarn/berry/cache/debug-npm-4.4.0-f6efe76023-10c0.zip/node_modules/debug/",\
+      ["virtual:b38e5152a67e03f722893918e83eca0ca138dd449cec9e1f2c6d0a4e58984ef9523796e1e72d98f3bf390be1c0ecf8f0a1bbd846980c91498455787812a2deae#npm:4.4.0", {\
+        "packageLocation": "./.yarn/__virtual__/debug-virtual-257660ca92/6/.yarn/berry/cache/debug-npm-4.4.0-f6efe76023-10c0.zip/node_modules/debug/",\
         "packageDependencies": [\
-          ["debug", "virtual:ffe4ab641e6c334f6e9fa801579b93f847ec62c6338eb5a0468b95a66460621c0cee8db5aab36d7c84edceddff406d996431229b7e7ab1586e4a6720ffca6b3e#npm:4.4.0"],\
+          ["debug", "virtual:b38e5152a67e03f722893918e83eca0ca138dd449cec9e1f2c6d0a4e58984ef9523796e1e72d98f3bf390be1c0ecf8f0a1bbd846980c91498455787812a2deae#npm:4.4.0"],\
           ["@types/supports-color", null],\
           ["ms", "npm:2.1.3"],\
           ["supports-color", null]\
@@ -1624,19 +1624,20 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["minify", [\
-      ["npm:12.0.0", {\
-        "packageLocation": "../../../../../.yarn/berry/cache/minify-npm-12.0.0-ffe4ab641e-10c0.zip/node_modules/minify/",\
+      ["npm:13.0.0", {\
+        "packageLocation": "../../../../../.yarn/berry/cache/minify-npm-13.0.0-b38e5152a6-10c0.zip/node_modules/minify/",\
         "packageDependencies": [\
-          ["minify", "npm:12.0.0"],\
+          ["minify", "npm:13.0.0"],\
           ["@putout/minify", "npm:4.8.4"],\
-          ["@swc/core", "virtual:ffe4ab641e6c334f6e9fa801579b93f847ec62c6338eb5a0468b95a66460621c0cee8db5aab36d7c84edceddff406d996431229b7e7ab1586e4a6720ffca6b3e#npm:1.10.3"],\
+          ["@swc/core", "virtual:b38e5152a67e03f722893918e83eca0ca138dd449cec9e1f2c6d0a4e58984ef9523796e1e72d98f3bf390be1c0ecf8f0a1bbd846980c91498455787812a2deae#npm:1.10.3"],\
           ["clean-css", "npm:5.3.3"],\
           ["css-b64-images", "npm:0.2.5"],\
-          ["debug", "virtual:ffe4ab641e6c334f6e9fa801579b93f847ec62c6338eb5a0468b95a66460621c0cee8db5aab36d7c84edceddff406d996431229b7e7ab1586e4a6720ffca6b3e#npm:4.4.0"],\
+          ["debug", "virtual:b38e5152a67e03f722893918e83eca0ca138dd449cec9e1f2c6d0a4e58984ef9523796e1e72d98f3bf390be1c0ecf8f0a1bbd846980c91498455787812a2deae#npm:4.4.0"],\
           ["esbuild", "npm:0.24.2"],\
           ["find-up", "npm:7.0.0"],\
           ["html-minifier-terser", "npm:7.2.0"],\
           ["lightningcss", "npm:1.28.2"],\
+          ["montag", "npm:1.2.1"],\
           ["readjson", "npm:2.2.2"],\
           ["simport", "npm:1.2.0"],\
           ["terser", "npm:5.37.0"],\
@@ -1652,6 +1653,15 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["minimatch", "npm:3.1.2"],\
           ["brace-expansion", "npm:1.1.11"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["montag", [\
+      ["npm:1.2.1", {\
+        "packageLocation": "../../../../../.yarn/berry/cache/montag-npm-1.2.1-02da9ea083-10c0.zip/node_modules/montag/",\
+        "packageDependencies": [\
+          ["montag", "npm:1.2.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1699,10 +1709,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["npm-check-updates", [\
-      ["npm:17.1.12", {\
-        "packageLocation": "../../../../../.yarn/berry/cache/npm-check-updates-npm-17.1.12-88f9ee8f31-10c0.zip/node_modules/npm-check-updates/",\
+      ["npm:17.1.15", {\
+        "packageLocation": "../../../../../.yarn/berry/cache/npm-check-updates-npm-17.1.15-b908151f54-10c0.zip/node_modules/npm-check-updates/",\
         "packageDependencies": [\
-          ["npm-check-updates", "npm:17.1.12"]\
+          ["npm-check-updates", "npm:17.1.15"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2017,8 +2027,8 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["share_to_sns", "workspace:."],\
-          ["minify", "npm:12.0.0"],\
-          ["npm-check-updates", "npm:17.1.12"],\
+          ["minify", "npm:13.0.0"],\
+          ["npm-check-updates", "npm:17.1.15"],\
           ["npm-run-all", "npm:4.1.5"],\
           ["try-to-catch", "npm:3.0.1"]\
         ],\
